@@ -55,8 +55,6 @@ Monthly P&L is **January–October 2026**. Product profitability uses **January 
 
 **Page 2: Treasury** shows final base/stress cash, minimum headroom, weekly receipts/payments and the 13-week base/stress liquidity trajectories.
 
-**PDF presentation note:** In the supplied PDF, the Treasury receipts/payments bar chart is visually ordered non-chronologically. To correct in Looker Studio, sort the bar chart by **Week Date ascending** and re-export the report; the weekly CSV and Python charts are already chronological. For clarity, add `Product profitability | Jan 2025–Oct 2026` above the first-page product table.
-
 ## Reproduce
 
 In Google Colab, upload `notebooks/northstar_retail_analysis.ipynb` and select **Runtime → Run all**. Alternatively, install the dependencies below and run the notebook in Jupyter in the project root:
